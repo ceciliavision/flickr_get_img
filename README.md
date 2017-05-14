@@ -1,5 +1,5 @@
 # flickr_get_img
-Bash script to automatically download photos given photo query ID (User ID not required)
+Bash script to automatically download photos given Flickr photo query ID (User ID not required). Note that the current version of Flickr API allows users to extract urls of different sizes of photos while doing query, so you probably don't need this script if you want to do query from scratch. This script is used when you *already* have, while *only* have the photo IDs, and would like to download the original photos.
 
 Originally written to extract Flickr photos in dataset Dubrovnik6K (http://www.cs.cornell.edu/projects/p2f/), a subset of SFM data.
 
